@@ -1,7 +1,7 @@
 .detail {
-    @apply bg-gradient-radial from-white to-gray-300 via-gray-200  text-gray-900 grid lg:place-items-start place-items-center max-h-80;
+    @apply grid lg:place-items-start  max-h-80;
     &__wrapper {
-        @apply flex items-center lg:flex-col flex-row w-full mt-4;
+        @apply flex items-center lg:flex-col flex-row w-full lg:my-5 mt-4;
     }
     &__label {
         @apply uppercase tracking-[2px] lg:text-base text-xs block w-full;
@@ -9,7 +9,9 @@
     &__content {
         @apply font-bold lg:text-[52px] text-xl lg:text-left text-right block w-full lg:mt-5 mt-0;
         &-wrapper {
-            @apply flex lg:flex-row flex-col w-full h-full;
+            @apply flex lg:flex-row flex-col w-full lg:divide-x-2 ;
+
+			
         }
     }
 }

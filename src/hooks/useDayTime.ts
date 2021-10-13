@@ -5,7 +5,7 @@ export const useDayTime = () => {
 
     useEffect(() => {
         const hour = new Date().getHours();
-        if (hour > 6 && hour < 21) setDayTime(true);
+        if (hour > 6 && hour < 18) setDayTime(true);
         else setDayTime(false);
     }, []);
 
